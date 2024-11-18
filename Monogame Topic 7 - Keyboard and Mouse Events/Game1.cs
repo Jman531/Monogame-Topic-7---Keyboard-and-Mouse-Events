@@ -84,8 +84,8 @@ namespace Monogame_Topic_7___Keyboard_and_Mouse_Events
 
             if (oldKeyboardState.IsKeyUp(Keys.Space) && keyboardState.IsKeyDown(Keys.Space))
             {
-                pacLocation.X = generator.Next(0, 801);
-                pacLocation.Y = generator.Next(0, 601);
+                pacLocation.X = generator.Next(0, 726);
+                pacLocation.Y = generator.Next(0, 526);
             }
 
             if (pacLocation.Left >= window.Width)
